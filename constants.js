@@ -205,7 +205,7 @@ export const domainDetails = [
     headsAndPhotos: [
       {
         domainHead: "Preksha M",
-        domainHeadPhoto: "/current-domain-heads/Preksha M.jpg",
+        domainHeadPhoto: "/current-domain-heads/Preksha M.jpg",        
         linkedInURL: "",
       },
     ],
