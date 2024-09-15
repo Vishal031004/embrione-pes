@@ -388,111 +388,131 @@ export const sponsors = [
   //     },
   //   ],
   // },
+  // {
+  //   category: "Tech Sponsors",
+  //   categorySponsors: [
+  //     {
+  //       name: "1password",
+  //       imageUrl: "/sponsors/1Password.png",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Axure",
+  //       imageUrl: "/sponsors/axure.png",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "echo3D",
+  //       imageUrl: "/sponsors/echo-three-d.png",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Wolfram",
+  //       imageUrl: "/sponsors/wolfram.png",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "orielly",
+  //       imageUrl: "/sponsors/TechPartners/orielly.png",
+  //       sponsorWebsiteURL: ""
+  //     }
+  //   ],
+  // },
+
+  // {
+  //   category: "Food Sponsors",
+  //   categorySponsors: [
+  //     {
+  //       name: "brownburger",
+  //       imageUrl: "/sponsors/FoodPartners/brownburger.png",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "creambell",
+  //       imageUrl: "/sponsors/FoodPartners/frozenbottle.png",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "echo3D",
+  //       imageUrl: "/sponsors/FoodPartners/creambell.png",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Wolfram",
+  //       imageUrl: "/sponsors/FoodPartners/glens.png",
+  //       sponsorWebsiteURL:""
+  //     }
+  //   ],
+  // },
+
+  // {
+  //   category: "Travel Partners",
+  //   categorySponsors: [
+  //     {
+  //       name: "EaseMyTrip-Logo",
+  //       imageUrl: "/sponsors/TravelPartners/EaseMyTrip-Logo.jpg",
+  //       sponsorWebsiteURL:""
+  //     }
+  //   ],
+  // }
   {
     category: "Tech Sponsors",
     categorySponsors: [
-      {
-        name: "1password",
-        imageUrl: "/sponsors/1Password.png",
-        sponsorWebsiteURL:""
-      },
       {
         name: "Axure",
         imageUrl: "/sponsors/axure.png",
         sponsorWebsiteURL:""
       },
       {
-        name: "echo3D",
-        imageUrl: "/sponsors/echo-three-d.png",
+        name: "Sponsor 2",
+        imageUrl: "",
         sponsorWebsiteURL:""
       },
       {
-        name: "Wolfram",
-        imageUrl: "/sponsors/wolfram.png",
+        name: "Sponsor 3",
+        imageUrl: "",
         sponsorWebsiteURL:""
       },
-      {
-        name: "orielly",
-        imageUrl: "/sponsors/TechPartners/orielly.png",
-        sponsorWebsiteURL: ""
-      }
     ],
   },
-
   {
-    category: "Food Sponsors",
+    category: "Category2",
     categorySponsors: [
       {
-        name: "brownburger",
-        imageUrl: "/sponsors/FoodPartners/brownburger.png",
+        name: "Sponsor 1",
+        imageUrl: "",
         sponsorWebsiteURL:""
       },
       {
-        name: "creambell",
-        imageUrl: "/sponsors/FoodPartners/frozenbottle.png",
+        name: "Sponsor 2",
+        imageUrl: "",
         sponsorWebsiteURL:""
       },
       {
-        name: "echo3D",
-        imageUrl: "/sponsors/FoodPartners/creambell.png",
+        name: "Sponsor 3",
+        imageUrl: "",
         sponsorWebsiteURL:""
       },
-      {
-        name: "Wolfram",
-        imageUrl: "/sponsors/FoodPartners/glens.png",
-        sponsorWebsiteURL:""
-      }
     ],
   },
-
   {
-    category: "Travel Partners",
+    category: "Category3",
     categorySponsors: [
       {
-        name: "EaseMyTrip-Logo",
-        imageUrl: "/sponsors/TravelPartners/EaseMyTrip-Logo.jpg",
+        name: "Sponsor 1",
+        imageUrl: "",
         sponsorWebsiteURL:""
-      }
+      },
+      {
+        name: "Sponsor 2",
+        imageUrl: "",
+        sponsorWebsiteURL:""
+      },
+      {
+        name: "Sponsor 3",
+        imageUrl: "",
+        sponsorWebsiteURL:""
+      },
     ],
-  }
-  // {
-  //   category: "Category2",
-  //   categorySponsors: [
-  //     {
-  //       name: "Sponsor 1",
-  //       imageUrl: "",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "Sponsor 1",
-  //       imageUrl: "",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "Sponsor 1",
-  //       imageUrl: "",
-  //       sponsorWebsiteURL:""
-  //     },
-  //   ],
-  // },
-  // {
-  //   category: "Category3",
-  //   categorySponsors: [
-  //     {
-  //       name: "Sponsor 1",
-  //       imageUrl: "",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "Sponsor 1",
-  //       imageUrl: "",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "Sponsor 1",
-  //       imageUrl: "",
-  //       sponsorWebsiteURL:""
-  //     },
-  //   ],
-  // },
+  },
 ];
