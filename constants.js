@@ -101,14 +101,9 @@ export const domainDetails = [
     domainName: "Club Head",
     headsAndPhotos: [
       {
-        domainHead: "Gagan HR",
-        domainHeadPhoto: "/current-domain-heads/gagan-h-r.png",
-        linkedInURL: "https://www.linkedin.com/in/gaganhr",
-      },
-      {
-        domainHead: "Anvesha Nayak",
-        domainHeadPhoto: "/current-domain-heads/anvesha-nayak.png",
-        linkedInURL: "https://www.linkedin.com/in/anveshanayak",
+        domainHead: "Arushi Katta",
+        domainHeadPhoto: "/current-domain-heads/Arushi Katta.jpg",
+        linkedInURL: "https://www.linkedin.com/in/arushi-katta",  
       },
     ],
   },
@@ -116,14 +111,14 @@ export const domainDetails = [
     domainName: "Logistics",
     headsAndPhotos: [
       {
-        domainHead: "Shobith",
-        domainHeadPhoto: "/current-domain-heads/shobith.png",
-        linkedInURL: "",
+        domainHead: "Lakshay Bhutani",
+        domainHeadPhoto: "/current-domain-heads/Lakshay Bhutani_.webp",
+        linkedInURL: "https://www.linkedin.com/in/lakshay-bhutani-software/",
       },
       {
-        domainHead: "Thanush J Lodha",
-        domainHeadPhoto: "/current-domain-heads/thanush-j-lodha.png",
-        linkedInURL: "",
+        domainHead: "Mayank Sharma",
+        domainHeadPhoto: "/current-domain-heads/Mayank Sharma.jpg",
+        linkedInURL: "www.linkedin.com/in/mayank-sharma-pes",
       },
     ],
   },
@@ -131,14 +126,14 @@ export const domainDetails = [
     domainName: "Event Management",
     headsAndPhotos: [
       {
-        domainHead: "Khushi Patil",
-        domainHeadPhoto: "/current-domain-heads/khushi-patil.png",
-        linkedInURL: "https://www.linkedin.com/in/khushi-patil-8546b1236",
+        domainHead: "Kunjal Patwari",
+        domainHeadPhoto: "/current-domain-heads/Kunjal Patwari_.jpg",
+        linkedInURL: "https://www.linkedin.com/in/kunjal-patwari-967085291?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4XrmfMcaQbadXpJ7TPOmwQ%3D%3D",
       },
       {
-        domainHead: "Vidhul",
-        domainHeadPhoto: "/current-domain-heads/vidhul.png",
-        linkedInURL: "",
+        domainHead: "Shailja Shaktawat",
+        domainHeadPhoto: "/current-domain-heads/Shailja Shaktawat.jpeg",
+        linkedInURL: "https://www.linkedin.com/in/shailja-shaktawat-380b2922a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     ],
   },
@@ -146,10 +141,10 @@ export const domainDetails = [
     domainName: "Marketing and Sponsorship",
     headsAndPhotos: [
       {
-        domainHead: "Krishna Sudarshan",
-        domainHeadPhoto: "/current-domain-heads/krishna-sudarshan.png",
+        domainHead: "Shashwat Jha",
+        domainHeadPhoto: "/current-domain-heads/Shashwat.png",
         linkedInURL:
-          "",
+          "www.linkedin.com/in/shashwat-jha-7a726b296",
       },
     ],
   },
@@ -157,9 +152,24 @@ export const domainDetails = [
     domainName: "Web Development",
     headsAndPhotos: [
       {
-        domainHead: "Karthik Namboori",
-        domainHeadPhoto: "/current-domain-heads/karthik_delhi.png",
-        linkedInURL: "https://in.linkedin.com/in/karthik-namboori-145238216",
+        domainHead: "Rahul Baradol",
+        domainHeadPhoto: "/current-domain-heads/Rahul Baradol.jpg",
+        linkedInURL: "https://www.linkedin.com/in/rahul-baradol/",
+      },
+    ],
+  },
+  {
+    domainName: "Social Media",
+    headsAndPhotos: [
+      {
+        domainHead: "Rhea Gangamma",
+        domainHeadPhoto: "/current-domain-heads/Rhea Gangamma.png",
+        linkedInURL: "",
+      },
+      {
+        domainHead: "Deeksha Kashyap",
+        domainHeadPhoto: "/current-domain-heads/Deeksha Kashyap.jpg",
+        linkedInURL: "https://www.linkedin.com/in/deeksha-kashyap-02546a185",
       },
     ],
   },
@@ -167,25 +177,25 @@ export const domainDetails = [
     domainName: "Hospitality",
     headsAndPhotos: [
       {
-        domainHead: "Shreya Palavalli",
-        domainHeadPhoto: "/current-domain-heads/shreya-palavalli.png",
-        linkedInURL: "https://www.linkedin.com/in/shreya-palavalli-85175224a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        domainHead: "Manya Gaonkar",
+        domainHeadPhoto: "/current-domain-heads/Manya Gaonkar.jpeg",
+        linkedInURL: "http://linkedin.com/in/manya-gaonkar-4a9607288",
       },
       {
-        domainHead: "Trisha Songra",
-        domainHeadPhoto: "/current-domain-heads/trisha-songra.png",
+        domainHead: "Kanika Kuchinad",
+        domainHeadPhoto: "/current-domain-heads/Kanika.jpg",
         linkedInURL:
           "",
       },
     ],
   },
   {
-    domainName: "Public Relations",
+    domainName: "Campaigning",
     headsAndPhotos: [
       {
-        domainHead: "Pari Maheshwari",
-        domainHeadPhoto: "/current-domain-heads/pari-maheshwari.png",
-        linkedInURL: "https://www.linkedin.com/in/pari-maheshwari/",
+        domainHead: "Sravanthi",
+        domainHeadPhoto: "/current-domain-heads/Sravanthi N.jpg",
+        linkedInURL: "https://www.linkedin.com/in/sravanthi-n-5b89a22b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     ],
   },
@@ -194,14 +204,9 @@ export const domainDetails = [
     domainName: "Operations",
     headsAndPhotos: [
       {
-        domainHead: "Arshya Khurana",
-        domainHeadPhoto: "/current-domain-heads/arshya-khurana.png",
-        linkedInURL: "",
-      },
-      {
-        domainHead: "Shikhar Jaiswal",
-        domainHeadPhoto: "/current-domain-heads/shikhar-jaiswal.png",
-        linkedInURL: "",
+        domainHead: "Preksha M",
+        domainHeadPhoto: "/current-domain-heads/Preksha M.jpg",        
+        linkedInURL: "https://www.linkedin.com/in/preksha-m-90b309329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       },
     ],
   },
@@ -210,9 +215,9 @@ export const domainDetails = [
     domainName: "Design",
     headsAndPhotos: [
       {
-        domainHead: "Kousthubha GK",
-        domainHeadPhoto: "/current-domain-heads/kousthubha-gk.png",
-        linkedInURL: "",
+        domainHead: "Sadhana Hegde",
+        domainHeadPhoto: "/current-domain-heads/sadhanaAT.jpg",
+        linkedInURL: "https://www.linkedin.com/in/sadhana-hegde-ba9424265/",
       },
     ],
   },
@@ -346,32 +351,26 @@ export const socialLinks = [
 export const kodikonEvents = [
   {
     "eventTitle": "Registrations Begin",
-    "eventTimings": "16th October 2023",
-    "eventDescription": "Kodikon 3.0, the third edition of our 24-hour highly successful flagship national-level hackathon, is opening its registration from 16th October. Hurry up! Slots are open. Log yourself in.",
+    "eventTimings": "18th September 2024",
+    "eventDescription": "Kodikon 4.0, the fourth edition of our 24-hour highly successful flagship national-level hackathon, is opening its registration from 18th September. Hurry up! Slots are open. Log yourself in.",
     "miscellaneous": "Event 1"
   },
   {
-    "eventTitle": "Registrations Close",
-    "eventTimings": "26th October 2023",
-    "eventDescription": "The registrations are going to be closed on 26th October. Register if you have not already!",
+    "eventTitle": "Registrations and Submissions Close",
+    "eventTimings": "15th October 2024",
+    "eventDescription": "The registrations and submissons are going to be closed on 15th October. Register and submit if you have not already!",
     "miscellaneous": "Event 1"
   },
   {
-    "eventTitle": "Shortlisting the best teams!",
-    "eventTimings": "27th October 2023",
+    "eventTitle": "Announcement of shortlisted teams",
+    "eventTimings": "18th October 2024",
     "eventDescription": "Selecting the top contestants based on their ideas.",
     "miscellaneous": "Event 1"
   },
   {
-    "eventTitle": "Announcing the Shortlisted Teams",
-    "eventTimings": "28th October 2023",
-    "eventDescription": "Teams shortlisted for the offline event, get ready!",
-    "miscellaneous": "Event 1"
-  },
-  {
-    "eventTitle": "Kodikon 3.0 - The Main Event!",
-    "eventTimings": "4th and 5th November 2023",
-    "eventDescription": "The main event day! Teams compete and hack the event.",
+    "eventTitle": "Kodikon 4.0 - Main Event!",
+    "eventTimings": "26th and 27th October 2024",
+    "eventDescription": "The main event day! Attendance in person at the venue is required for the selected teams. Top 10 teams will be selected after the final review. Finally, the announcement of winners!",
     "miscellaneous": "Event 1"
   }
 ];
@@ -388,131 +387,133 @@ export const sponsors = [
   //     },
   //   ],
   // },
-  // {
-  //   category: "Tech Sponsors",
-  //   categorySponsors: [
-  //     {
-  //       name: "1password",
-  //       imageUrl: "/sponsors/1Password.png",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "Axure",
-  //       imageUrl: "/sponsors/axure.png",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "echo3D",
-  //       imageUrl: "/sponsors/echo-three-d.png",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "Wolfram",
-  //       imageUrl: "/sponsors/wolfram.png",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "orielly",
-  //       imageUrl: "/sponsors/TechPartners/orielly.png",
-  //       sponsorWebsiteURL: ""
-  //     }
-  //   ],
-  // },
-
-  // {
-  //   category: "Food Sponsors",
-  //   categorySponsors: [
-  //     {
-  //       name: "brownburger",
-  //       imageUrl: "/sponsors/FoodPartners/brownburger.png",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "creambell",
-  //       imageUrl: "/sponsors/FoodPartners/frozenbottle.png",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "echo3D",
-  //       imageUrl: "/sponsors/FoodPartners/creambell.png",
-  //       sponsorWebsiteURL:""
-  //     },
-  //     {
-  //       name: "Wolfram",
-  //       imageUrl: "/sponsors/FoodPartners/glens.png",
-  //       sponsorWebsiteURL:""
-  //     }
-  //   ],
-  // },
-
-  // {
-  //   category: "Travel Partners",
-  //   categorySponsors: [
-  //     {
-  //       name: "EaseMyTrip-Logo",
-  //       imageUrl: "/sponsors/TravelPartners/EaseMyTrip-Logo.jpg",
-  //       sponsorWebsiteURL:""
-  //     }
-  //   ],
-  // }
   {
     category: "Tech Sponsors",
     categorySponsors: [
+      {
+        name: "1password",
+        imageUrl: "/sponsors/1Password.png",
+        sponsorWebsiteURL:""
+      },
       {
         name: "Axure",
         imageUrl: "/sponsors/axure.png",
         sponsorWebsiteURL:""
       },
       {
-        name: "Sponsor 2",
-        imageUrl: "",
+        name: "echo3D",
+        imageUrl: "/sponsors/echo-three-d.png",
         sponsorWebsiteURL:""
       },
       {
-        name: "Sponsor 3",
-        imageUrl: "",
+        name: "Wolfram",
+        imageUrl: "/sponsors/wolfram.png",
         sponsorWebsiteURL:""
       },
+      {
+        name: "orielly",
+        imageUrl: "/sponsors/TechPartners/orielly.png",
+        sponsorWebsiteURL: ""
+      }
     ],
   },
+
   {
-    category: "Category2",
+    category: "Food Sponsors",
     categorySponsors: [
       {
-        name: "Sponsor 1",
-        imageUrl: "",
+        name: "brownburger",
+        imageUrl: "/sponsors/FoodPartners/brownburger.png",
         sponsorWebsiteURL:""
       },
       {
-        name: "Sponsor 2",
-        imageUrl: "",
+        name: "creambell",
+        imageUrl: "/sponsors/FoodPartners/frozenbottle.png",
         sponsorWebsiteURL:""
       },
       {
-        name: "Sponsor 3",
-        imageUrl: "",
+        name: "echo3D",
+        imageUrl: "/sponsors/FoodPartners/creambell.png",
         sponsorWebsiteURL:""
       },
+      {
+        name: "Wolfram",
+        imageUrl: "/sponsors/FoodPartners/glens.png",
+        sponsorWebsiteURL:""
+      }
     ],
   },
+
   {
-    category: "Category3",
+    category: "Travel Partners",
     categorySponsors: [
       {
-        name: "Sponsor 1",
-        imageUrl: "",
+        name: "EaseMyTrip-Logo",
+        imageUrl: "/sponsors/TravelPartners/EaseMyTrip-Logo.jpg",
         sponsorWebsiteURL:""
-      },
-      {
-        name: "Sponsor 2",
-        imageUrl: "",
-        sponsorWebsiteURL:""
-      },
-      {
-        name: "Sponsor 3",
-        imageUrl: "",
-        sponsorWebsiteURL:""
-      },
+      }
     ],
-  },
+  }
+
+  
+  // {
+  //   category: "Tech Sponsors",
+  //   categorySponsors: [
+  //     {
+  //       name: "Axure",
+  //       imageUrl: "/sponsors/axure.png",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Sponsor 2",
+  //       imageUrl: "",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Sponsor 3",
+  //       imageUrl: "",
+  //       sponsorWebsiteURL:""
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: "Category2",
+  //   categorySponsors: [
+  //     {
+  //       name: "Sponsor 1",
+  //       imageUrl: "",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Sponsor 2",
+  //       imageUrl: "",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Sponsor 3",
+  //       imageUrl: "",
+  //       sponsorWebsiteURL:""
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: "Category3",
+  //   categorySponsors: [
+  //     {
+  //       name: "Sponsor 1",
+  //       imageUrl: "",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Sponsor 2",
+  //       imageUrl: "",
+  //       sponsorWebsiteURL:""
+  //     },
+  //     {
+  //       name: "Sponsor 3",
+  //       imageUrl: "",
+  //       sponsorWebsiteURL:""
+  //     },
+  //   ],
+  // },
 ];
