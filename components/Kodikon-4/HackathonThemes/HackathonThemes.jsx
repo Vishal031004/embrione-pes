@@ -7,20 +7,24 @@ import { useRef } from 'react'
 
 const themes = [
   {
-    title: "Fintech",
-    description: " Unleash your innovation in the world of finance and technology. From insurance and tax filing to UPI, ONDC, lending, KYC, and neobanks, this theme welcomes groundbreaking solutions that re-imagine the financial landscape. Participants are encouraged to explore these dynamic challenges and opportunities in the finance industry, and drive the future of fintech with fresh, inventive ideas",
+    title: "Developer Tools",
+    description: "Unleash your innovation to streamline software development and enhance coding workflows. From enforcing coding standards to improving documentation and version control, this is your chance to develop tools that empower developers to build smarter, faster, and more efficiently.",
   },
   {
-    title: "Generative AI",
-    description: " Immerse yourself in the fascinating world of Generative AI, where artificial intelligence meets creativity. This theme invites you to explore and craft innovative solutions that leverage AI to generate diverse content, from text and images to music and beyond. Whether you're drawn to HR process optimization, software workflow generation, personalized marketing, developer tools, or any other captivating challenge, Generative AI offers a canvas for your ideas to flourish.",
+    title: "EdTech",
+    description: "Are you ready to revolutionize education? Dive into this theme and design solutions that personalize learning, create engaging interactive tools, and provide accessible resources for diverse learners. Whether it's AI-powered platforms or immersive AR/VR experiences, you can make learning more impactful and inclusive.",
   },
   {
-    title: "Healthcare",
-    description: "In the ever-evolving world of Healthtech, where technology meets healthcare to transform lives, this theme invites you to explore and create innovative solutions that improve patient care, streamline healthcare processes, enhance medical diagnostics, and drive healthcare accessibility. Whether you're passionate about telemedicine, digital health records, wearable devices, medical imaging, or any other aspect of health technology, this is your opportunity to make a difference in the well-being of individuals and communities.",
+    title: "Smart Cities",
+    description: "Help shape the future of urban living! Use cutting-edge technologies like IoT, AI, and big data to create smart solutions that improve transportation, manage resources efficiently, and reduce environmental impact. Your innovation could be the key to building more sustainable and smarter cities.",
   },
   {
-    title: "Retail",
-    description: "Embrace the world of retail innovation, where technology and consumer experiences converge. From enhancing online shopping experiences and supply chain optimization and in-store innovations and integrating augmented and virtual reality for immersive shopping experiences, there are boundless opportunities to revolutionize how people shop and businesses operate. Whether you're passionate about e-commerce, retail analytics, sustainable retail practices, or any other facet of the retail industry, this theme offers a platform for your ideas to flourish.",
+    title: "Next-Gen Technologies",
+    description: "EStep into the world of future tech! With advancements like 5G, blockchain, and AR/VR, you can create solutions that redefine connectivity, speed, and real-time communication. Whether it's enhancing network performance or revolutionizing digital experiences, your ideas can lead the next wave of technological breakthroughs.",
+  },
+  {
+    title: "Assistive Technology and Accessibility",
+    description: "Create technologies that make a real difference! This theme invites you to design devices and software that enhance accessibility, mobility, and communication for individuals with disabilities. Your innovation can promote independence, inclusivity, and equal opportunities for everyone.",
   }
 ]
 
