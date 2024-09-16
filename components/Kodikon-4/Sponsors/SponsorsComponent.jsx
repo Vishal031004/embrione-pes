@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import TitleComponent from '../HelperComponents/TitleComponent'
-import { sponsors } from '@/constants'
+import { sponsors_for_kodikon_4 } from '@/components/Kodikon-4/sponsors'
 const SponsorCard = ({ sponsorName, sponsorImageURL, sponsorWebsiteURL, index }) => {
   return (
     <div className="flex flex-col items-center justify-center p-2  h-100 w-100     "
@@ -23,7 +23,7 @@ const SponsorsComponent = () => {
       <TitleComponent id="sponser" titleData="Our Sponsors" />
       <div className="w-full h-fit flex flex-col items-center justify-center gap-32 ">
         {
-          sponsors?.map((sponsor, index) => (
+          sponsors_for_kodikon_4?.map((sponsor, index) => (
             <div className="text-white py-9 " key={index}>
               <h1 className="w-full text-center text-4xl md:text-5xl my-5">{sponsor.category}</h1>
               <div className="flex md:grid flex-col md:grid-cols-2 items-center justify-center gap-12 p-5 ">
