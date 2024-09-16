@@ -4,7 +4,8 @@ import 'react-vertical-timeline-component/style.min.css';
 import { BsGoogle } from 'react-icons/bs';
 import {  MonitorPlay, MonitorX, Layers, Mic2, TerminalSquare } from 'lucide-react';
 
-const iconArray = [<MonitorPlay size='90px'/>, <MonitorX size='90px'/>, <Layers size='90px'/>, <Mic2 size='90px'/>, <TerminalSquare size='90px'/>]
+// const iconArray = [<MonitorPlay size='90px'/>, <MonitorX size='90px'/>, <Layers size='90px'/>, <Mic2 size='90px'/>, <TerminalSquare size='90px'/>]
+const iconArray = [<MonitorPlay size='90px'/>, <MonitorX size='90px'/>, <Mic2 size='90px'/>, <TerminalSquare size='90px'/>]
 const EventTimelineComponent = ({ eventTitle, eventDescription, eventTimings, miscellaneous,index }) => {
   return (
     <VerticalTimelineElement
