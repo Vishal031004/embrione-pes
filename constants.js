@@ -183,7 +183,7 @@ export const domainDetails = [
       },
       {
         domainHead: "Kanika Kuchinad",
-        domainHeadPhoto: "/current-domain-heads/Kanika Kuchinad.jpg",
+        domainHeadPhoto: "/current-domain-heads/Kanika.jpg",
         linkedInURL:
           "",
       },
