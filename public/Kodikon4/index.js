@@ -1,7 +1,7 @@
 import whitepeslogo from './whitepeslogo.png'
 import whitelogo from './whitelogo.png'
 // import copyofcopy from './copyofcopy.png'
-import copyofcopy from './Kodikon4logo.png'
+import copyofcopy from './Kodikon4.png'
 import leftguy from './leftguy.png'
 import rightguy from './rightguy.png'
 import fourteen from './14.png'
