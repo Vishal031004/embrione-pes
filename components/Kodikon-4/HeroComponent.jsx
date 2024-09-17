@@ -3,7 +3,7 @@
 // ReadMe: Here the Banner provided by the team will be placed. Measure the right Aspect Ratio and fit the banner into
 // the screen.
 import React from 'react'
-import { copyofcopy, leftguy, rightguy, fourteen, fifteen } from "@/public/Kodikon3";
+import { copyofcopy, leftguy, rightguy, fourteen, fifteen } from "@/public/Kodikon4";
 import Image from 'next/image';
 
 const HeroComponent = () => {
@@ -15,7 +15,7 @@ const HeroComponent = () => {
             src={leftguy}
             alt=""
             data-aos="fade-in-left"
-        data-aos-duration="2500"
+            data-aos-duration="2500"
             className='h-[100%]'
           />
 
@@ -24,7 +24,7 @@ const HeroComponent = () => {
           <div className='absolute md:relative my-auto bottom-32 md:bottom-0 px-2 z-200'>
             <Image
               src={copyofcopy}
-              alt="Kodikon 3.0"
+              alt="Kodikon 4.0"
               className='h-fit w-fit '
               data-aos="fade-in"
         // data-aos-duration="500"
