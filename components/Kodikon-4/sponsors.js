@@ -7,16 +7,16 @@ export const sponsors_for_kodikon_4 = [
           imageUrl: "/sponsors/axure.png",
           sponsorWebsiteURL:""
         },
-        {
-          name: "Sponsor 2",
-          imageUrl: "",
-          sponsorWebsiteURL:""
-        },
-        {
-          name: "Sponsor 3",
-          imageUrl: "",
-          sponsorWebsiteURL:""
-        },
+      //   {
+      //     name: "Sponsor 2",
+      //     imageUrl: "",
+      //     sponsorWebsiteURL:""
+      //   },
+      //   {
+      //     name: "Sponsor 3",
+      //     imageUrl: "",
+      //     sponsorWebsiteURL:""
+      //   },
       ],
     },
     // {
