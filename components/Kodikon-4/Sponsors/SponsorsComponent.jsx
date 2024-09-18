@@ -16,7 +16,6 @@ const SponsorCard = ({ sponsorName, sponsorImageURL, sponsorWebsiteURL, index })
 }
 
 
-
 const SponsorsComponent = () => {
   return (
     <div className="flex flex-col w-full h-fit gap-6">
@@ -26,15 +25,17 @@ const SponsorsComponent = () => {
           sponsors_for_kodikon_4?.map((sponsor, index) => (
             <div className="text-white py-9 " key={index}>
               <h1 className="w-full text-center text-4xl md:text-5xl my-5">{sponsor.category}</h1>
-              <div className="flex md:grid flex-col md:grid-cols-2 items-center justify-center gap-12 p-5 ">
+              {/* <div className="flex md:grid flex-col md:grid-cols-2 items-center justify-center gap-12 p-5 ">*/} {/*for multiple sponsors*/} 
+              <div className="flex md:flex flex-col md:grid-cols-2 justify-center gap-12 p-5 ">
                 {sponsor.categorySponsors.map((item, index) => (
                   <SponsorCard key={index} index = {index} sponsorWebsiteURL={item.sponsorWebsiteURL} sponsorImageURL={item.imageUrl} sponsorName={item.name} />
                 ))}
               </div>
+              <h1 className="w-full text-center text-4xl md:text-5xl my-6 h-40 gradient-text-animation ">Awaiting More Sponsors !!</h1>
             </div>
           ))
         }
-
+        
       </div>
 
     </div>
