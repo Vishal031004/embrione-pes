@@ -381,6 +381,33 @@ export const kodikonEvents = [
   }
 ];
 
+export const kodikon4Events = [
+  {
+    "eventTitle": "Registrations Begin",
+    "eventTimings": "18th September 2024",
+    "eventDescription": "Kodikon 4.0, the fourth edition of our 24-hour highly successful flagship national-level hackathon, is opening its registration from 18th September. Hurry up! Slots are open. Log yourself in.",
+    "miscellaneous": "Event 1"
+  },
+  {
+    "eventTitle": "Registrations and Submissions Close",
+    "eventTimings": "15th October 2024",
+    "eventDescription": "The registrations and submissons are going to be closed on 15th October. Register and submit if you have not already!",
+    "miscellaneous": "Event 1"
+  },
+  {
+    "eventTitle": "Announcement of shortlisted teams",
+    "eventTimings": "18th October 2024",
+    "eventDescription": "Selecting the top contestants based on their ideas.",
+    "miscellaneous": "Event 1"
+  },
+  {
+    "eventTitle": "Kodikon 4.0 - Main Event!",
+    "eventTimings": "26th and 27th October 2024",
+    "eventDescription": "The main event day! Attendance in person at the venue is required for the selected teams. Top 10 teams will be selected after the final review. Finally, the announcement of winners!",
+    "miscellaneous": "Event 1"
+  }
+];
+
 
 export const sponsors = [
   // {
