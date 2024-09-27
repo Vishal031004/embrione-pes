@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { whitepeslogo, whitelogo } from "@/public/Kodikon3";
 import Image from "next/image";
 
-export const NavbarKodikon3 = () => {
+const NavbarKodikon4 = () => {
     const ref = useRef(null);
     const [isIntersecting, setIntersecting] = useState(true);
     const [navbar, setNavbar] = useState(false)
@@ -123,8 +123,10 @@ export const NavbarKodikon3 = () => {
                 </div>
             </nav>
         </>
-    );
+    );  
 };
+
+export default NavbarKodikon4;
 
 
 {/* <nav className={`fixed inset-x-0 top-0 z-50 backdrop-blur  duration-200 border-b  ${isIntersecting

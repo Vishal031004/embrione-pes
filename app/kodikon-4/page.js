@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import { NavbarKodikon3 } from "@/components/Kodikon-4/NavbarKodikon4";
+import NavbarKodikon4 from "@/components/Kodikon-4/NavbarKodikon4";
 import ScrollProgressComponent from "@/components/ScrollProgress/ScrollProgressComponent";
 import BottomNavigationComponent from "@/components/BottomNavigation/BottomNavigationComponent";
 import HeroComponent from "@/components/Kodikon-4/HeroComponent";
@@ -18,13 +18,13 @@ export default function LandingPage() {
     <>
       
       <div className="relative flex justify-center items-center">
-        <NavbarKodikon3/>
+        <NavbarKodikon4/>
       </div>
       <ScrollProgressComponent />
       <div className=" relative flex justify-center items-center flex-col md:px-32 gap-y-9">
         <HeroComponent />
         <AboutTheEvent />
-        <EventCountdown/>
+        {/* <EventCountdown/> */}
         {/* <PreviousEditionComponent /> */}
         <HackathonThemes/>
         <EventTimeline/>
