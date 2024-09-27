@@ -21,9 +21,9 @@ const PrizesComponent = () => {
     <div className="flex flex-col w-full h-fit gap-6">
       <TitleComponent titleData="Prizes in Store!" />
       <div className="w-full h-fit flex flex-col md:grid md:grid-cols-3  place-items-center my-16 gap-9 md:gap-0 ">
-        <PrizeCard index={1} source={'/Kodikon3/prizes/first.png'} />
-        <PrizeCard index={2} source={'/Kodikon3/prizes/second.png'} />
-        <PrizeCard index={3} source={'/Kodikon3/prizes/third.png'} />
+        <PrizeCard index={1} source={'/Kodikon4/prizes/first.png'} />
+        <PrizeCard index={2} source={'/Kodikon4/prizes/second.png'} />
+        <PrizeCard index={3} source={'/Kodikon4/prizes/third.png'} />
       </div>
 
     </div>
