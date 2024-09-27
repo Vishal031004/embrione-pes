@@ -10,10 +10,10 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
         return (
             <div className="h-fit my-4 md:my-32 px-2">
                 <h1 className="text-white text-5xl md:text-6xl lg:text-8xl text-center">
-                    <span className="gradient-text-animation">Kodikon 3.0</span> Registration Open!
+                    <span className="gradient-text-animation">Kodikon 4.0</span> Registration Open!
                 </h1>
                 <div className="w-full h-fit flex items-center justify-center">
-                    <Link target='_blank' href='https://hack2skill.com/hack/kodikon3'>
+                <Link target='_blank' href='https://hack2skill.com/hack/kodikon3'>
                         <button className="text-black text-xl md:text-3xl text-center bg-white p-3 rounded-md my-12 hover:bg-gray-300 transition ease-in duration-200">
                             Register!
                         </button>
