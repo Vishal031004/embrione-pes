@@ -24,7 +24,7 @@ export default function LandingPage() {
       <div className=" relative flex justify-center items-center flex-col md:px-32 gap-y-9">
         <HeroComponent />
         <AboutTheEvent />
-        {/*<EventCountdown/>*/}
+        {<EventCountdown/>}
         {/* <PreviousEditionComponent /> */}
         <HackathonThemes/>
         <EventTimeline/>
