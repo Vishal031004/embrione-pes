@@ -1,19 +1,5 @@
 export const oldDomainDetails = [
-  {
-    domainName: "Co-Founders",
-    headsAndPhotos: [
-      {
-        domainHead: "Vijit Kumar",
-        domainHeadPhoto: "/domiainHeadPhotos/vijit.jpg",
-        linkedInURL: "https://www.linkedin.com/in/vijit-kumar/",
-      },
-      {
-        domainHead: "Vishal J Lodha",
-        domainHeadPhoto: "/domiainHeadPhotos/vishal.jpeg",
-        linkedInURL: "https://www.linkedin.com/in/vishal-j-lodha",
-      },
-    ],
-  },
+
   {
     domainName: "Logistics",
     headsAndPhotos: [
@@ -82,21 +68,7 @@ export const oldDomainDetails = [
   },
 ];
 export const domainDetails = [
-  {
-    domainName: "Co-Founders",
-    headsAndPhotos: [
-      {
-        domainHead: "Vijit Kumar",
-        domainHeadPhoto: "/domiainHeadPhotos/vijit.jpg",
-        linkedInURL: "https://www.linkedin.com/in/vijit-kumar/",
-      },
-      {
-        domainHead: "Vishal J Lodha",
-        domainHeadPhoto: "/domiainHeadPhotos/vishal.jpeg",
-        linkedInURL: "https://www.linkedin.com/in/vishal-j-lodha",
-      },
-    ],
-  },
+
   {
     domainName: "Club Head",
     headsAndPhotos: [
@@ -384,19 +356,19 @@ export const kodikonEvents = [
 export const kodikon4Events = [
   {
     "eventTitle": "Registrations Begin",
-    "eventTimings": "18th September 2024",
+    "eventTimings": "30th September 2024",
     "eventDescription": "Kodikon 4.0, the fourth edition of our 24-hour highly successful flagship national-level hackathon, is opening its registration from 18th September. Hurry up! Slots are open. Log yourself in.",
     "miscellaneous": "Event 1"
   },
   {
     "eventTitle": "Registrations and Submissions Close",
-    "eventTimings": "15th October 2024",
+    "eventTimings": "18th October 2024",
     "eventDescription": "The registrations and submissons are going to be closed on 15th October. Register and submit if you have not already!",
     "miscellaneous": "Event 1"
   },
   {
     "eventTitle": "Announcement of shortlisted teams",
-    "eventTimings": "18th October 2024",
+    "eventTimings": "20th October 2024",
     "eventDescription": "Selecting the top contestants based on their ideas.",
     "miscellaneous": "Event 1"
   },
