@@ -357,13 +357,13 @@ export const kodikon4Events = [
   {
     "eventTitle": "Registrations Begin",
     "eventTimings": "30th September 2024",
-    "eventDescription": "Kodikon 4.0, the fourth edition of our 24-hour highly successful flagship national-level hackathon, is opening its registration from 18th September. Hurry up! Slots are open. Log yourself in.",
+    "eventDescription": "Kodikon 4.0, the fourth edition of our 24-hour highly successful flagship national-level hackathon, is opening its registration from 30th September. Hurry up! Slots are open. Log yourself in.",
     "miscellaneous": "Event 1"
   },
   {
     "eventTitle": "Registrations and Submissions Close",
     "eventTimings": "18th October 2024",
-    "eventDescription": "The registrations and submissons are going to be closed on 15th October. Register and submit if you have not already!",
+    "eventDescription": "The registrations and submissons are going to be closed on 18th October. Register and submit if you have not already!",
     "miscellaneous": "Event 1"
   },
   {
