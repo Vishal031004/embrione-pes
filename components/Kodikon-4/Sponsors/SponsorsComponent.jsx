@@ -19,7 +19,7 @@ const SponsorCard = ({ sponsorName, sponsorImageURL, sponsorWebsiteURL, index })
 const SponsorsComponent = () => {
   return (
     <div className="flex flex-col w-full h-fit gap-6">
-      <TitleComponent id="sponser" titleData="Our Sponsors" />
+      <TitleComponent id="sponsor" titleData="Our Sponsors" />
       <div className="w-full h-fit flex flex-col items-center justify-center gap-32 ">
         {
           sponsors_for_kodikon_4?.map((sponsor, index) => (

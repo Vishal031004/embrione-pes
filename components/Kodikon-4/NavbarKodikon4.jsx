@@ -109,7 +109,7 @@ const NavbarKodikon4 = () => {
                                 <Link href="/kodikon-4/#timeline" onClick={() => setNavbar(false)}>Timeline</Link>
                             </li>
                             <li className="text-white text-xs lg:text-[16px]">
-                                <Link href="/kodikon-4/#sponser" onClick={() => setNavbar(false)}>Sponsers</Link>
+                                <Link href="/kodikon-4/#sponsor" onClick={() => setNavbar(false)}>Sponsors</Link>
                             </li>
                             <li className="text-white text-xs lg:text-[16px]">
                                 <Link href="/kodikon-4/#faq" onClick={() => setNavbar(false)}>FAQ</Link>
