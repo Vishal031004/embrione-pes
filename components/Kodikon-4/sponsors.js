@@ -7,6 +7,11 @@ export const sponsors_for_kodikon_4 = [
           imageUrl: "/sponsors/axure.png",
           sponsorWebsiteURL:""
         },
+        {
+          name: "Wolfram",
+          imageUrl: "/sponsors/wolfram-stacked.png",
+          sponsorWebsiteURL: ""
+        },
       //   {
       //     name: "Sponsor 2",
       //     imageUrl: "",
