@@ -20,7 +20,7 @@ export const sponsors_for_kodikon_4 = [
       {
         name: "Flatlogic",
         imageUrl: "/Kodikon4/Sponsors/Platform Partners/flatlogic.png",
-        sponsorWebsiteURL: ""
+        sponsorWebsiteURL: "https://flatlogic.com/"
       }//,
       // {
       //   name: "Sponsor 2",
