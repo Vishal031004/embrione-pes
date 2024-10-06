@@ -38,7 +38,8 @@ const SponsorsComponent = () => {
                         href={item.sponsorWebsiteURL} 
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        className="mt-2 text-center text-blue-500 underline"
+                        className="mt-2 text-center "
+                        style={{ color: '#1ec6fa' }} 
                       >
                         Click here to visit {item.name}.com
                       </a>
