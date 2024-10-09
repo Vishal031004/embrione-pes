@@ -20,7 +20,7 @@ const themes = [
   },
   {
     title: "Next-Gen Technologies",
-    description: "EStep into the world of future tech! With advancements like 5G, blockchain, and AR/VR, you can create solutions that redefine connectivity, speed, and real-time communication. Whether it's enhancing network performance or revolutionizing digital experiences, your ideas can lead the next wave of technological breakthroughs.",
+    description: "Step into the world of future tech! With advancements like 5G, blockchain, and AR/VR, you can create solutions that redefine connectivity, speed, and real-time communication. Whether it's enhancing network performance or revolutionizing digital experiences, your ideas can lead the next wave of technological breakthroughs.",
   },
   {
     title: "Assistive Technology and Accessibility",
