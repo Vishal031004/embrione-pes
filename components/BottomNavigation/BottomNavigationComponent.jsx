@@ -4,6 +4,7 @@ import { BiHomeAlt } from 'react-icons/bi'
 import { TfiAnnouncement } from 'react-icons/tfi'
 import { IoMdContact } from 'react-icons/io'
 import { BsFill3CircleFill } from 'react-icons/bs'
+import { BsFill4CircleFill } from "react-icons/bs";
 import { AiFillInfoCircle, AiFillHome } from 'react-icons/ai'
 import Link from "next/link";
 
@@ -31,7 +32,7 @@ const BottomNavigationComponent = () => {
       <Link href={'#about'}> <AiFillInfoCircle className={`${iconStyles}`} size={20} /></Link>
       <Link href={'#announcements'}> <TfiAnnouncement className={`${iconStyles}`} size={20} /></Link>
       <Link href={'#contact'}> <IoMdContact className={`${iconStyles}`} size={20} /></Link>
-      <Link href={'/kodikon-3'}> <BsFill3CircleFill className={`${iconStyles} gradient-text-animation`} size={20} /></Link>
+      <Link href={'/kodikon-4'}> <BsFill4CircleFill className={`${iconStyles} gradient-text-animation`} size={20} /></Link>
     </div>
   );
 };
