@@ -80,6 +80,16 @@ export const domainDetails = [
     ],
   },
   {
+    domainName: "Mentor",
+    headsAndPhotos: [
+      {
+        domainHead: "Gagan H R",
+        domainHeadPhoto: "/current-domain-heads/Gagan H R.jpg",
+        linkedInURL: "https://www.linkedin.com/in/gaganhr",  
+      },
+    ],
+  },
+  {
     domainName: "Logistics",
     headsAndPhotos: [
       {
