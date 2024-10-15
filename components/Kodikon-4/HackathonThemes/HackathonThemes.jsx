@@ -25,7 +25,11 @@ const themes = [
   {
     title: "Assistive Technology and Accessibility",
     description: "Create technologies that make a real difference! This theme invites you to design devices and software that enhance accessibility, mobility, and communication for individuals with disabilities. Your innovation can promote independence, inclusivity, and equal opportunities for everyone.",
-  }
+  },
+  {
+    "title": "Cybersecurity",
+    "description": "In an increasingly digital world, security is more crucial than ever. Build solutions that protect sensitive data, detect vulnerabilities, and secure networks from cyber threats. Whether it's encryption, threat detection, or privacy-enhancing technologies, your innovations can help safeguard the digital future."
+  }  
 ]
 
 const HackathonThemes = () => {
