@@ -378,7 +378,7 @@ export const kodikon4Events = [
   },
   {
     "eventTitle": "Announcement of shortlisted teams",
-    "eventTimings": "21th October 2024",
+    "eventTimings": "21st October 2024",
     "eventDescription": "Selecting the top contestants based on their ideas.",
     "miscellaneous": "Event 1"
   },
