@@ -80,18 +80,25 @@
 // ReadMe: Here the Banner provided by the team will be placed. Measure the right Aspect Ratio and fit the banner into
 // the screen.
 import React from 'react'
-import { copyofcopy, leftguy, rightguy} from "@/public/Kodikon4"; // Import SentinelOne image
+import { copyofcopy, leftguy, rightguy } from "@/public/Kodikon4"; // Import SentinelOne image
 import Image from 'next/image';
-import SentinelOne from '/public/Kodikon4/SentinelOne.png'; // Direct from public folder
+import SentinelOne from '/public/Kodikon4/s1.svg'; // Direct from public folder
 import Kodikon4 from '/public/Kodikon4/Kodikon4.png';
 
 
 const HeroComponent = () => {
   return (
     <>
+      <style jsx> {`
+        .sentinelone {
+          font-size: min(6vw, 20px);
+        }
+
+      `}
+      </style>
       <div className='relative md:top-24 md:h-[100vh]  md:w-[100vw]  mt-9 flex flex-row items-center justify-between'>
         {/* Left Image */}
-        <div className='relative top-[2px]'>
+        <div className='relative  top-[2px]'>
           <Image
             src={leftguy}
             alt="Left Side Image"
@@ -102,29 +109,29 @@ const HeroComponent = () => {
         </div>
 
         {/* Center Section with Main Logo */}
-        <div className='flex flex-col items-center'>
-          {/* Main Logo Image */}
-          <div className='absolute md:relative my-auto bottom-32 md:bottom-0 px-2 z-200'>
+        <div className='flex flex-col items-center justify-center  z-10'>
+          <div className='sponsorDiv absolute flex flex-col gap-4 items-center'>
+            <div className='-translate-x-6 my-auto px-2 flex items-center gap-5'>
+              <Image
+                src={SentinelOne} // Replace with SentinelOne image
+                alt="SentinelOne Image Overlay"
+                className='h-fit w-[40px]'
+              />
+              <div className='sentinelone text-white'>
+                SENTINELONE
+              </div>
+            </div>
+
+            <div className='sentinelone text-white border-red-500'>
+              PRESENTS
+            </div>
+          </div>
+
+          <div className='  my-auto bottom-32 md:bottom-0 px-2 z-200'>
             <Image
               src={Kodikon4}
               alt="Kodikon 4.0"
-              className='h-fit w-fit '
-              data-aos="fade-in"
-            />
-          </div>
-          <div className='absolute top-[250px] text-white text-lg font-bold z-400 md:top-[150px]'>
-            <span>presents</span>
-          </div>
-
-          {/* SentinelOne Image Layered Over the Logo */}
-          <div className='absolute top-[100px] my-auto z-300 flex justify-center md:top-[10px] '>
-            <Image
-              src={SentinelOne} // Replace with SentinelOne image
-              alt="SentinelOne Image Overlay"
-              style={{ height: 'fit', width: 'fit' }}
-              className='rounded-lg' // Adjust the size as needed
-              data-aos="fade-in"
-
+              className='h-fit w-fit'
             />
           </div>
         </div>
