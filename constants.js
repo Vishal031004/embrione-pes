@@ -372,13 +372,13 @@ export const kodikon4Events = [
   },
   {
     "eventTitle": "Registrations and Submissions Close",
-    "eventTimings": "18th October 2024",
-    "eventDescription": "The registrations and submissons are going to be closed on 18th October. Register and submit if you have not already!",
+    "eventTimings": "19th October 2024",
+    "eventDescription": "The registrations and submissons are going to be closed on 19th October. Register and submit if you have not already!",
     "miscellaneous": "Event 1"
   },
   {
     "eventTitle": "Announcement of shortlisted teams",
-    "eventTimings": "20th October 2024",
+    "eventTimings": "21th October 2024",
     "eventDescription": "Selecting the top contestants based on their ideas.",
     "miscellaneous": "Event 1"
   },
