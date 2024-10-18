@@ -2,18 +2,24 @@ import React from 'react'
 import Image from 'next/image'
 import TitleComponent from '../HelperComponents/TitleComponent'
 import { sponsors_for_kodikon_4 } from '@/components/Kodikon-4/sponsors'
-const SponsorCard = ({ sponsorName, sponsorImageURL, sponsorWebsiteURL, index }) => {
+const SponsorCard = ({ sponsorName, sponsorImageURL, sponsorDescription, sponsorWebsiteURL, index }) => {
   return (
-    <div className="flex flex-col items-center justify-center p-2  h-100 w-100     "
-    // data-aos="zoom-in-up"
-        // data-aos-duration="500"
-        // data-aos-delay={`${(index + 1) * 200}`}
-        >
-      <Image src={sponsorImageURL} alt={sponsorName} height={500} width={500} className = 'rounded-md' />
+    <div className="flex flex-col items-center justify-center p-2 h-100 w-100">
+      <Image 
+        src={sponsorImageURL} 
+        alt={sponsorName} 
+        height={500} 
+        width={500} 
+        className='rounded-md' 
+      />
       <p className="text-white mt-2 text-lg">{sponsorName}</p>
+      {sponsorDescription && (
+        <p className="text-gray-400 mt-2 text-center text-sm">{sponsorDescription}</p>
+      )}
     </div>
-  )
-}
+  );
+};
+
 
 
 const SponsorsComponent = () => {
@@ -32,6 +38,7 @@ const SponsorsComponent = () => {
                       index={index} 
                       sponsorImageURL={item.imageUrl} 
                       sponsorName={item.name} 
+                      sponsorDescription={item.description} 
                     />
                     {item.sponsorWebsiteURL && (
                       <a 
