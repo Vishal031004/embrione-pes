@@ -1,155 +1,50 @@
-// 'use client'
-
-// // ReadMe: Here the Banner provided by the team will be placed. Measure the right Aspect Ratio and fit the banner into
-// // the screen.
-// import React from 'react'
-// import { copyofcopy, leftguy, rightguy, fourteen, fifteen } from "@/public/Kodikon4";
-// import Image from 'next/image';
-
-// const HeroComponent = () => {
-//   return (
-//     <>
-//       <div className='relative md:top-24 md:h-[100vh]  md:w-[100vw]  mt-9 flex flex-row items-center justify-between'>
-//         <div className='relative top-[2px]'>
-//           <Image
-//             src={leftguy}
-//             alt=""
-//             data-aos="fade-in-left"
-//             data-aos-duration="2500"
-//             className='h-[100%]'
-//           />
-
-//         </div>
-//         <div className='flex flex-col items-center'>
-//           <div className='absolute md:relative my-auto bottom-32 md:bottom-0 px-2 z-200'>
-//             <Image
-//               src={copyofcopy}
-//               alt="Kodikon 4.0"
-//               className='h-fit w-fit '
-//               data-aos="fade-in"
-//         // data-aos-duration="500"
-//             />
-//           </div>
-//           {/* <div className='top-0 absolute flex flex-row justify-around items-center w-[90vw] h-[90vh] '>
-//             <div className='w-[20vw]'>
-//               <Image
-//                 src={fifteen}
-//                 className='relative z-100'
-//                 alt=""
-//                 data-aos="fade-in"
-//         data-aos-duration="500"
-//         data-aos-delay='1000'
-//               />
-//             </div>
-//             <div className='w-[16vw]'>
-//               <Image
-//                 src={fourteen}
-//                 className='relative z-100'
-//                 alt=""
-//                 data-aos="fade-in"
-//         data-aos-duration="500"
-//         data-aos-delay = '1000'
-//               />
-//             </div>
-//           </div> */}
-//         </div>
-//         <div className='relative -z-300'>
-//           <Image
-//             src={rightguy}
-//             alt=""
-//             className='h-[100%]'
-//             data-aos="fade-in-right"
-//         data-aos-duration="2500"
-//           />
-//         </div>
-//       </div>
-//     </>
-//   )
-// }
-
-// export default HeroComponent
-
-
-
-
-
-
-
 'use client'
 
-// ReadMe: Here the Banner provided by the team will be placed. Measure the right Aspect Ratio and fit the banner into
-// the screen.
 import React from 'react'
-import { copyofcopy, leftguy, rightguy } from "@/public/Kodikon4"; // Import SentinelOne image
+import { leftguy, rightguy, fourteen, fifteen } from "@/public/Kodikon4";
 import Image from 'next/image';
-import SentinelOne from '/public/Kodikon4/s1.svg'; // Direct from public folder
-import Kodikon4 from '/public/Kodikon4/Kodikon4.png';
+import Kodikon41 from '/public/Kodikon4/Kodikon41.png';
 
 
 const HeroComponent = () => {
   return (
     <>
-      <style jsx> {`
-        .sentinelone {
-          font-size: min(6vw, 20px);
-        }
-
-      `}
-      </style>
       <div className='relative md:top-24 md:h-[100vh]  md:w-[100vw]  mt-9 flex flex-row items-center justify-between'>
-        {/* Left Image */}
-        <div className='relative  top-[2px]'>
+        <div className='relative top-[2px]'>
           <Image
             src={leftguy}
-            alt="Left Side Image"
+            alt=""
             data-aos="fade-in-left"
             data-aos-duration="2500"
             className='h-[100%]'
           />
+
         </div>
-
-        {/* Center Section with Main Logo */}
-        <div className='flex flex-col items-center justify-center  z-10'>
-          <div className='sponsorDiv absolute flex flex-col gap-4 items-center'>
-            <div className='-translate-x-6 my-auto px-2 flex items-center gap-5'>
-              <Image
-                src={SentinelOne} // Replace with SentinelOne image
-                alt="SentinelOne Image Overlay"
-                className='h-fit w-[40px]'
-              />
-              <div className='sentinelone text-white'>
-                SENTINELONE
-              </div>
-            </div>
-
-            <div className='sentinelone text-white border-red-500'>
-              PRESENTS
-            </div>
-          </div>
-
-          <div className='  my-auto bottom-32 md:bottom-0 px-2 z-200'>
+        <div className='flex flex-col items-center'>
+          <div className='absolute md:relative my-auto bottom-32 md:bottom-0 px-2 z-200'>
             <Image
-              src={Kodikon4}
+              src={Kodikon41}
               alt="Kodikon 4.0"
-              className='h-fit w-fit'
+              className='h-150 w-300 '
             />
           </div>
         </div>
-
-        {/* Right Image */}
         <div className='relative -z-300'>
           <Image
             src={rightguy}
-            alt="Right Side Image"
+            alt=""
             className='h-[100%]'
             data-aos="fade-in-right"
-            data-aos-duration="2500"
+        data-aos-duration="2500"
           />
         </div>
-
       </div>
     </>
   )
 }
 
 export default HeroComponent
+
+
+
+
